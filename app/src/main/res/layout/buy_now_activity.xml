@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/track_price_ll"
+        android:layout_width="match_parent"
+        android:layout_margin="0dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.30"
+            android:text="Track Price"
+            android:textStyle="bold"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/track_price_view"
+            android:layout_width="0dp"
+            android:layout_weight="0.70"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/track_url"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.30"
+            android:text="Track Url"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/track_url_text"
+            android:layout_width="0dp"
+            android:layout_weight="0.70"
+            android:autoLink="web"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/collection_ll"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.30"
+            android:text="Collection Price"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/collection_price_text_view"
+            android:layout_width="0dp"
+            android:layout_weight="0.70"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/collection_ll_url"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        android:layout_height="70dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.30"
+            android:text="Collection Url"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/collection_view_url"
+            android:layout_width="0dp"
+            android:layout_weight="0.70"
+            android:autoLink="web"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    </LinearLayout>
